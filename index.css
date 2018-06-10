@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.head-box {
+    width: 100%;
+    height: 44px;
+    background: #2f2f2f;
+    overflow: hidden;
+}
+
+.logo1 {
+    width: 100px;
+    height: 44px;
+    margin: 5px 0 auto 64px;
+    background: url("20180609095115.png") no-repeat;
+    float: left;
+}
+
+.logo2 {
+    width: 110px;
+    height: 44px;
+    background: url("20180609095933.png") no-repeat;
+    margin: 8px 80px auto 0;
+    float: right;
+}
+
+.menu {
+    width: 720px;
+    height: 44px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.menu div {
+    font-size: 14px;
+    font-family: "Avenir Next ST", "Microsoft YaHei", "PingFang SC";
+    margin-top: 11px;
+    color: #ffffff;
+}
+
+.menu div:nth-child(4) {
+    color: rgb(170, 170, 170);
+}
+
+.ground {
+    background: #f7f7f5;
+}
+
+.wrapper {
+    width: 1200px;
+    height: 4000px;
+    margin: 0 auto;
+    padding-top: 31px;
+}
+
+.picture1 {
+    width: 429px;
+    height: 65px;
+    background-image: url("vivo-fifa_972aad2.png");
+    margin: 0 auto 31px;
+}
+
+.text-box-1 {
+    width: 470px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto 14px auto;
+    padding-left: 37px;
+}
+
+.text-box-1 .pic1 {
+    width: 100px;
+    height: 20px;
+    background: url("20180609105119121.png") no-repeat;
+    margin-right: 40px;
+}
+
+.text-box-1 .pic2 {
+    width: 100px;
+    height: 20px;
+    background: url("2018060910511912.png") no-repeat;
+    margin-right: 25px;
+}
+
+.text-box-1 .pic3 {
+    width: 120px;
+    height: 20px;
+    background: url("201806091051191213.png") no-repeat;
+    margin-right: 20px;
+}
+
+.text-box-1 .pic4 {
+    width: 130px;
+    height: 20px;
+    background: url("2018060910519.png") no-repeat;
+}
+
+.text-box-2 {
+    width: 250px;
+    height: 20px;
+    float: right;
+    margin: -20px 0 auto auto;
+}
+
+.text-box-2 div {
+    font-family: "Nirmala UI";
+    font-size: 14px;
+    float: right;
+    color: #4c4c4c;
+}
+
+.text-box-2 div:nth-child(2) {
+    margin-right: 45px;
+}
+
+.picture2 {
+    width: 1200px;
+    height: 450px;
+    background-image: url("20180607110711907344_original.jpg");
+    background-size: 100%;
+}
+
+.text-box-3 {
+    width: 1200px;
+    height: 145px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-box-3 div {
+    width: 295px;
+    height: auto;
+    background-size: 100%;
+}
+
+.text-box-3 .pic1 {
+    background-image: url("20180428104400164455_original.jpg");
+}
+
+.text-box-3 .pic2 {
+    background-image: url("20180428105522994861_original.jpg");
+}
+
+.text-box-3 .pic3 {
+    background-image: url("20180428105538500264_original.jpg");
+}
+
+.text-box-3 .pic4 {
+    background-image: url("20180604111836883949_original.jpg");
+}
+
+.shop-text-1 {
+    width: 1200px;
+    height: 24px;
+    font-family: "方正悠黑简体_纤", "Microsoft YaHei", Arial;
+    color: #333;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    margin: 46px 0 30px 0;
+}
+
+.shop-text-1 .more {
+    color: #333;
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.shop-box-1 {
+    width: 1200px;
+    height: 512px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "方正悠黑简体_纤", "Microsoft YaHei";
+    text-align: center;
+}
+
+.shop-box-1 .shop1, .shop-box-1 .shop2, .shop-box-1 .shop3 {
+    width: 390px;
+    height: 512px;
+    background: white;
+}
+
+.shop-box-1 .shop-pic1, .shop-box-1 .shop-pic2, .shop-box-1 .shop-pic3 {
+    width: 230px;
+    height: 230px;
+    margin: 60px auto 40px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.shop-box-1 .shop-pic1 {
+    background-image: url("4846_1521459122499hd_530x530.png");
+}
+
+.shop-box-1 .shop-pic2 {
+    background-image: url("5019_1527499264320hd_530x530.png");
+}
+
+.shop-box-1 .shop-pic3 {
+    background-image: url("4168_1496689529195hd_530x530.png");
+}
+
+.shop-text1 {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.shop-text2 {
+    font-size: 13px;
+    margin-bottom: 56px;
+}
+
+.shop-text3 {
+    font-size: 20px;
+    color: red;
+}
+
+.shop-text-2 {
+    width: 1200px;
+    height: 24px;
+    font-family: "方正悠黑简体_纤", "Microsoft YaHei", Arial;
+    color: #333;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+    margin: 46px 0 30px 0;
+}
+
+.shop-text-2 .more {
+    color: #333;
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.shop-box-2 {
+    width: 1200px;
+    height: 780px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: "方正悠黑简体_纤", "Microsoft YaHei";
+    text-align: center;
+}
+
+.shop-box-2 .shop1 {
+    width: 595px;
+    height: 380px;
+    background-image: url("20180531211148847492_original.png");
+}
+
+.shop-box-2 .shop2, .shop-box-2 .shop3, .shop-box-2 .shop4, .shop-box-2 .shop5, .shop-box-2 .shop6, .shop-box-2 .shop7 {
+    width: 293px;
+    height: 380px;
+    background: white;
+}
+
+.shop-box-2 .shop-pic2, .shop-box-2 .shop-pic3, .shop-box-2 .shop-pic4, .shop-box-2 .shop-pic5, .shop-box-2 .shop-pic6, .shop-box-2 .shop-pic7 {
+    width: 172px;
+    height: 172px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 43px auto 30px auto;
+}
+
+.shop-box-2 .shop-pic2 {
+    background-image: url("4867_1521528390779hd_530x530.png");
+}
+
+.shop-box-2 .shop-pic3 {
+    background-image: url("5004_1526974431827hd_530x530.png");
+}
+
+.shop-box-2 .shop-pic4 {
+    background-image: url("4999_1526315012363hd_530x530.png");
+}
+
+.shop-box-2 .shop-pic5 {
+    background-image: url("4657_1514129544527hd_530x530.png");
+}
+
+.shop-box-2 .shop-pic6 {
+    background-image: url("4151_1496689455875hd_530x530.png");
+}
+
+.shop-box-2 .shop-pic7 {
+    background-image: url("5019_1527499264320hd_530x530.png");
+}
+
+.shop-text4 {
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+
+.shop-text5 {
+    font-size: 13px;
+    margin-bottom: 43px;
+}
+
+.shop-text6 {
+    font-size: 17px;
+    color: red;
+}
+
+.shop-text-3 {
+    width: 1200px;
+    height: 24px;
+    font-family: "方正悠黑简体_纤", "Microsoft YaHei", Arial;
+    color: #333;
+    margin: 46px 0 30px 0;
+    text-align: right;
+
+}
+
+.shop-text-3 .title {
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+}
+.shop-text-3 .more{
+    margin:-10px 20px auto auto;
+    width: 1200px;
+    font-size: 14px;
+
+}
+.shop-text-3 .text-more, .shop-text-3 .text-left, .shop-text-3 .text-center, .shop-text-3 .text-right {
+    margin-right: 30px;
+    float: right;
+}
+.shop-text-3 .text-more {
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
